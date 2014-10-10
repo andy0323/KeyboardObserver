@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A145CAEF19E7B72D00BAEFDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A145CAEE19E7B72D00BAEFDD /* Foundation.framework */; };
+		A145CAF119E7B72D00BAEFDD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A145CAF019E7B72D00BAEFDD /* CoreGraphics.framework */; };
+		A145CAF319E7B72D00BAEFDD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A145CAF219E7B72D00BAEFDD /* UIKit.framework */; };
+		A145CAF919E7B72D00BAEFDD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A145CAF719E7B72D00BAEFDD /* InfoPlist.strings */; };
+		A145CAFB19E7B72D00BAEFDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A145CAFA19E7B72D00BAEFDD /* main.m */; };
+		A145CAFF19E7B72D00BAEFDD /* QBaseAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A145CAFE19E7B72D00BAEFDD /* QBaseAppDelegate.m */; };
+		A145CB0119E7B72D00BAEFDD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A145CB0019E7B72D00BAEFDD /* Images.xcassets */; };
+		A145CB0819E7B72D00BAEFDD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A145CB0719E7B72D00BAEFDD /* XCTest.framework */; };
+		A145CB0919E7B72D00BAEFDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A145CAEE19E7B72D00BAEFDD /* Foundation.framework */; };
+		A145CB0A19E7B72D00BAEFDD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A145CAF219E7B72D00BAEFDD /* UIKit.framework */; };
+		A145CB1219E7B72D00BAEFDD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A145CB1019E7B72D00BAEFDD /* InfoPlist.strings */; };
+		A145CB1419E7B72D00BAEFDD /* QBaseViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A145CB1319E7B72D00BAEFDD /* QBaseViewControllerTests.m */; };
+		A145CB2E19E7BC2300BAEFDD /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A145CB2D19E7BC2300BAEFDD /* DemoViewController.m */; };
+		A145CB3419E7BEA700BAEFDD /* QBaseViewController+KeyBoardObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = A145CB3119E7BEA700BAEFDD /* QBaseViewController+KeyBoardObserver.m */; };
+		A145CB3519E7BEA700BAEFDD /* QBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A145CB3319E7BEA700BAEFDD /* QBaseViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A145CB0B19E7B72D00BAEFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A145CAE319E7B72D00BAEFDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A145CAEA19E7B72D00BAEFDD;
+			remoteInfo = QBaseViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A145CAEB19E7B72D00BAEFDD /* QBaseViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QBaseViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A145CAEE19E7B72D00BAEFDD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A145CAF019E7B72D00BAEFDD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A145CAF219E7B72D00BAEFDD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A145CAF619E7B72D00BAEFDD /* QBaseViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QBaseViewController-Info.plist"; sourceTree = "<group>"; };
+		A145CAF819E7B72D00BAEFDD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A145CAFA19E7B72D00BAEFDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A145CAFC19E7B72D00BAEFDD /* QBaseViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QBaseViewController-Prefix.pch"; sourceTree = "<group>"; };
+		A145CAFD19E7B72D00BAEFDD /* QBaseAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QBaseAppDelegate.h; sourceTree = "<group>"; };
+		A145CAFE19E7B72D00BAEFDD /* QBaseAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QBaseAppDelegate.m; sourceTree = "<group>"; };
+		A145CB0019E7B72D00BAEFDD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A145CB0619E7B72D00BAEFDD /* QBaseViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QBaseViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A145CB0719E7B72D00BAEFDD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A145CB0F19E7B72D00BAEFDD /* QBaseViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QBaseViewControllerTests-Info.plist"; sourceTree = "<group>"; };
+		A145CB1119E7B72D00BAEFDD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A145CB1319E7B72D00BAEFDD /* QBaseViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QBaseViewControllerTests.m; sourceTree = "<group>"; };
+		A145CB2C19E7BC2300BAEFDD /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		A145CB2D19E7BC2300BAEFDD /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		A145CB3019E7BEA700BAEFDD /* QBaseViewController+KeyBoardObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QBaseViewController+KeyBoardObserver.h"; sourceTree = "<group>"; };
+		A145CB3119E7BEA700BAEFDD /* QBaseViewController+KeyBoardObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QBaseViewController+KeyBoardObserver.m"; sourceTree = "<group>"; };
+		A145CB3219E7BEA700BAEFDD /* QBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBaseViewController.h; sourceTree = "<group>"; };
+		A145CB3319E7BEA700BAEFDD /* QBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBaseViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A145CAE819E7B72D00BAEFDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A145CAF119E7B72D00BAEFDD /* CoreGraphics.framework in Frameworks */,
+				A145CAF319E7B72D00BAEFDD /* UIKit.framework in Frameworks */,
+				A145CAEF19E7B72D00BAEFDD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A145CB0319E7B72D00BAEFDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A145CB0819E7B72D00BAEFDD /* XCTest.framework in Frameworks */,
+				A145CB0A19E7B72D00BAEFDD /* UIKit.framework in Frameworks */,
+				A145CB0919E7B72D00BAEFDD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A145CAE219E7B72D00BAEFDD = {
+			isa = PBXGroup;
+			children = (
+				A145CB2F19E7BEA700BAEFDD /* src */,
+				A145CAF419E7B72D00BAEFDD /* QBaseViewController */,
+				A145CB0D19E7B72D00BAEFDD /* QBaseViewControllerTests */,
+				A145CAED19E7B72D00BAEFDD /* Frameworks */,
+				A145CAEC19E7B72D00BAEFDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A145CAEC19E7B72D00BAEFDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A145CAEB19E7B72D00BAEFDD /* QBaseViewController.app */,
+				A145CB0619E7B72D00BAEFDD /* QBaseViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A145CAED19E7B72D00BAEFDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A145CAEE19E7B72D00BAEFDD /* Foundation.framework */,
+				A145CAF019E7B72D00BAEFDD /* CoreGraphics.framework */,
+				A145CAF219E7B72D00BAEFDD /* UIKit.framework */,
+				A145CB0719E7B72D00BAEFDD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A145CAF419E7B72D00BAEFDD /* QBaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A145CAFD19E7B72D00BAEFDD /* QBaseAppDelegate.h */,
+				A145CAFE19E7B72D00BAEFDD /* QBaseAppDelegate.m */,
+				A145CB2C19E7BC2300BAEFDD /* DemoViewController.h */,
+				A145CB2D19E7BC2300BAEFDD /* DemoViewController.m */,
+				A145CB0019E7B72D00BAEFDD /* Images.xcassets */,
+				A145CAF519E7B72D00BAEFDD /* Supporting Files */,
+			);
+			path = QBaseViewController;
+			sourceTree = "<group>";
+		};
+		A145CAF519E7B72D00BAEFDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A145CAF619E7B72D00BAEFDD /* QBaseViewController-Info.plist */,
+				A145CAF719E7B72D00BAEFDD /* InfoPlist.strings */,
+				A145CAFA19E7B72D00BAEFDD /* main.m */,
+				A145CAFC19E7B72D00BAEFDD /* QBaseViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A145CB0D19E7B72D00BAEFDD /* QBaseViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A145CB1319E7B72D00BAEFDD /* QBaseViewControllerTests.m */,
+				A145CB0E19E7B72D00BAEFDD /* Supporting Files */,
+			);
+			path = QBaseViewControllerTests;
+			sourceTree = "<group>";
+		};
+		A145CB0E19E7B72D00BAEFDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A145CB0F19E7B72D00BAEFDD /* QBaseViewControllerTests-Info.plist */,
+				A145CB1019E7B72D00BAEFDD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A145CB2F19E7BEA700BAEFDD /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A145CB3019E7BEA700BAEFDD /* QBaseViewController+KeyBoardObserver.h */,
+				A145CB3119E7BEA700BAEFDD /* QBaseViewController+KeyBoardObserver.m */,
+				A145CB3219E7BEA700BAEFDD /* QBaseViewController.h */,
+				A145CB3319E7BEA700BAEFDD /* QBaseViewController.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A145CAEA19E7B72D00BAEFDD /* QBaseViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A145CB1719E7B72E00BAEFDD /* Build configuration list for PBXNativeTarget "QBaseViewController" */;
+			buildPhases = (
+				A145CAE719E7B72D00BAEFDD /* Sources */,
+				A145CAE819E7B72D00BAEFDD /* Frameworks */,
+				A145CAE919E7B72D00BAEFDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QBaseViewController;
+			productName = QBaseViewController;
+			productReference = A145CAEB19E7B72D00BAEFDD /* QBaseViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A145CB0519E7B72D00BAEFDD /* QBaseViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A145CB1A19E7B72E00BAEFDD /* Build configuration list for PBXNativeTarget "QBaseViewControllerTests" */;
+			buildPhases = (
+				A145CB0219E7B72D00BAEFDD /* Sources */,
+				A145CB0319E7B72D00BAEFDD /* Frameworks */,
+				A145CB0419E7B72D00BAEFDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A145CB0C19E7B72D00BAEFDD /* PBXTargetDependency */,
+			);
+			name = QBaseViewControllerTests;
+			productName = QBaseViewControllerTests;
+			productReference = A145CB0619E7B72D00BAEFDD /* QBaseViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A145CAE319E7B72D00BAEFDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QBase;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Andy Jin";
+				TargetAttributes = {
+					A145CB0519E7B72D00BAEFDD = {
+						TestTargetID = A145CAEA19E7B72D00BAEFDD;
+					};
+				};
+			};
+			buildConfigurationList = A145CAE619E7B72D00BAEFDD /* Build configuration list for PBXProject "QBaseViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A145CAE219E7B72D00BAEFDD;
+			productRefGroup = A145CAEC19E7B72D00BAEFDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A145CAEA19E7B72D00BAEFDD /* QBaseViewController */,
+				A145CB0519E7B72D00BAEFDD /* QBaseViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A145CAE919E7B72D00BAEFDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A145CAF919E7B72D00BAEFDD /* InfoPlist.strings in Resources */,
+				A145CB0119E7B72D00BAEFDD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A145CB0419E7B72D00BAEFDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A145CB1219E7B72D00BAEFDD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A145CAE719E7B72D00BAEFDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A145CB3419E7BEA700BAEFDD /* QBaseViewController+KeyBoardObserver.m in Sources */,
+				A145CB3519E7BEA700BAEFDD /* QBaseViewController.m in Sources */,
+				A145CAFB19E7B72D00BAEFDD /* main.m in Sources */,
+				A145CAFF19E7B72D00BAEFDD /* QBaseAppDelegate.m in Sources */,
+				A145CB2E19E7BC2300BAEFDD /* DemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A145CB0219E7B72D00BAEFDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A145CB1419E7B72D00BAEFDD /* QBaseViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A145CB0C19E7B72D00BAEFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A145CAEA19E7B72D00BAEFDD /* QBaseViewController */;
+			targetProxy = A145CB0B19E7B72D00BAEFDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A145CAF719E7B72D00BAEFDD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A145CAF819E7B72D00BAEFDD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A145CB1019E7B72D00BAEFDD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A145CB1119E7B72D00BAEFDD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A145CB1519E7B72E00BAEFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A145CB1619E7B72E00BAEFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A145CB1819E7B72E00BAEFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: shilong sang (9T3353N28G)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QBaseViewController/QBaseViewController-Prefix.pch";
+				INFOPLIST_FILE = "QBaseViewController/QBaseViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "704CE6A8-10D7-42D3-93C7-91790A0B384B";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A145CB1919E7B72E00BAEFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: shilong sang (9T3353N28G)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QBaseViewController/QBaseViewController-Prefix.pch";
+				INFOPLIST_FILE = "QBaseViewController/QBaseViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "704CE6A8-10D7-42D3-93C7-91790A0B384B";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A145CB1B19E7B72E00BAEFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QBaseViewController.app/QBaseViewController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QBaseViewController/QBaseViewController-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "QBaseViewControllerTests/QBaseViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A145CB1C19E7B72E00BAEFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QBaseViewController.app/QBaseViewController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QBaseViewController/QBaseViewController-Prefix.pch";
+				INFOPLIST_FILE = "QBaseViewControllerTests/QBaseViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A145CAE619E7B72D00BAEFDD /* Build configuration list for PBXProject "QBaseViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A145CB1519E7B72E00BAEFDD /* Debug */,
+				A145CB1619E7B72E00BAEFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A145CB1719E7B72E00BAEFDD /* Build configuration list for PBXNativeTarget "QBaseViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A145CB1819E7B72E00BAEFDD /* Debug */,
+				A145CB1919E7B72E00BAEFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A145CB1A19E7B72E00BAEFDD /* Build configuration list for PBXNativeTarget "QBaseViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A145CB1B19E7B72E00BAEFDD /* Debug */,
+				A145CB1C19E7B72E00BAEFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A145CAE319E7B72D00BAEFDD /* Project object */;
+}
